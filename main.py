@@ -21,7 +21,6 @@ label = Label(text="0")
 label.grid(column=1, row=2)
 
 def action():
-    print("Do something")
     new_text = int(entry.get())
     label.config(text=new_text * 1.6)
 
